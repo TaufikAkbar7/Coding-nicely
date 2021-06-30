@@ -1,5 +1,5 @@
 import { Fragment } from "react"
-import { Course, Hero, Footer, Navbar, TopFeatured, About } from "../components"
+import { Course, Hero, Footer, Navbar, TopFeatured, About, Testimoni } from "../components"
 export default function Home() {
   return (
     <Fragment>
@@ -8,6 +8,7 @@ export default function Home() {
       <Course/>
       <TopFeatured/>
       <About/>
+      <Testimoni/>
       <Footer/>
     </Fragment>    
   )
