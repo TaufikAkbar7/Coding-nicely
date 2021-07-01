@@ -5,9 +5,9 @@ export default function Home() {
     <Fragment>
       <Navbar/>
       <Hero/>
+      <About/>
       <Course/>
       <TopFeatured/>
-      <About/>
       <Testimoni/>
       <Footer/>
     </Fragment>    

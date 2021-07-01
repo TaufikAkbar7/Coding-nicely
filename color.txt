@@ -1,0 +1,2 @@
+primary-color: #F6F8F8
+secondary-color: #101F41
