@@ -8,7 +8,7 @@ const Hero = () => {
                     <span className="text-5xl mb-5 font-serif">lorem ipsum modaee aaaaa</span>
                     <p className="text-lg mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
                     <div className="mt-12 inline-block">
-                        <button className="bg-secondary text-indigo-50 hover:bg-transparent hover:text-secondary font-bold py-2 px-4 rounded-full">
+                        <button className="bg-secondary border border-secondary text-indigo-50 hover:bg-transparent hover:text-secondary font-bold py-2 px-4 rounded-full">
                             Daftar Kelas
                         </button>
                         <button className="text-secondary font-bold py-2 px-4 border border-secondary bg-transparent hover:bg-secondary hover:text-indigo-50 hover:border-transparent rounded-full ml-14">
