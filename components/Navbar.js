@@ -6,7 +6,7 @@ const Navbar = () => {
   const { title, data } = NavbarData;
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-transparent mb-3">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 py-5 bg-transparent">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
@@ -32,7 +32,7 @@ const Navbar = () => {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               {data.map(item => (
-                <li className="nav-item">
+                <li className="nav-item" key={item.name}>
                   <a
                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                     href={item.link}
