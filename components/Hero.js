@@ -1,4 +1,4 @@
-import Background from "./Background"
+import Background from "./Svg/Background"
 
 const Hero = () => {
     return (
