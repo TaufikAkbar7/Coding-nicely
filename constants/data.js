@@ -59,4 +59,20 @@ const CardData = {
     ]
 }
 
-export { NavbarData, CardData }
+const CourseData = {
+    title: "Our Course",
+    subTitle: "Temui Kelas Berdasarkan Kategori Yang Kami Sediakan",
+    course: [
+        "Game Design",
+        "Website Development",
+        "Soft Skills",
+        "UI/UX & Graphic Design",
+        "Game Development",
+        "Mobile Development",
+        "Network Development",
+        "Data Science",
+        "machine learning",
+    ]
+}
+
+export { NavbarData, CardData, HeroData, CourseData }
