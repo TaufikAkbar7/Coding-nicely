@@ -1,4 +1,4 @@
-import Background from "./Svg/Background"
+import { Background } from "./Svg"
 
 const Hero = () => {
     return (
