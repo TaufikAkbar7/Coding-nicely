@@ -1,6 +1,6 @@
 const Testimoni = () => {
     return (
-        <div>
+        <div className="min-h-screen bg-red-400">
             Testimoni
         </div>
     )

@@ -91,7 +91,7 @@ const AboutData = {
         {
             title: "lorem ipsum modaee aaaaa",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            svg: <CaseStudy width="700" height="400" vHeight="680.00102" vWidth="1050.08199"/>
+            svg: <CaseStudy width="700" height="400" vHeight="680.00102" vWidth="1100.08199"/>
         },
         {
             title: "lorem ipsum modaee aaaaa",
@@ -101,7 +101,7 @@ const AboutData = {
         {
             title: "lorem ipsum modaee aaaaa",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            svg: <Certification width="700" height="400" vHeight="680.00102" vWidth="1050.08199"/>
+            svg: <Certification width="700" height="400" vHeight="700.00102" vWidth="1050.08199"/>
         },
     ]
 }
