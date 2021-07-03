@@ -1,6 +1,7 @@
 import vue from "../public/vue.png"
 import { Certification, CaseStudy, Mentorring, Study } from "../components/Svg"
 import sampleImg from "../public/sampleImgTesti.jpg"
+import { FiInstagram, FiYoutube, FiTwitter, FiFacebook } from "react-icons/fi"
 
 const NavbarData = {
     title: "Coding Nicely",
@@ -139,5 +140,51 @@ const TestimoniData = {
     ]
 }
 
+const FooterData = {
+    data: [
+        {
+            name: "join us!",
+            value: ["Cara Belajar", "Terms & Conditions", "Frequently Asked Questions", "Privacy Policy"]
+        },
+        {
+            name: "program",
+            value: ["Developer School", "Kampus Coding", "Online Mentoring"]
+        },
+        {
+            name: "developers",
+            value: ["Forum Discussions", "Hall of Fame", "Leaderboard"]
+        },
+        {
+            name: "company",
+            value: ["About Code Nicely", "Blog", "Course"]
+        },
+    ],
 
-export { NavbarData, CardData, HeroData, CourseData, AboutData, TestimoniData }
+    data2: {
+        socials: [
+            {
+                name: "Facebook",
+                icons: <FiFacebook/>,
+                link: "https://www.facebook.com",
+            },
+            {
+                name: "Youtube",
+                icons: <FiYoutube/>,
+                link: "https://www.youtube.com",
+            },
+            {
+                name: "Twitter",
+                icons: <FiTwitter/>,
+                link: "https://www.twitter.com",
+            },
+            {
+                name: "Instagram",
+                icons: <FiInstagram/>,
+                link: "https://www.instagram.com",
+            },
+        ]
+    }
+    
+}
+
+export { NavbarData, CardData, HeroData, CourseData, AboutData, TestimoniData, FooterData }
