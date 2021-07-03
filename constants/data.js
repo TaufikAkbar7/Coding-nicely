@@ -1,5 +1,6 @@
 import vue from "../public/vue.png"
 import { Certification, CaseStudy, Mentorring, Study } from "../components/Svg"
+import sampleImg from "../public/sampleImgTesti.jpg"
 
 const NavbarData = {
     title: "Coding Nicely",
@@ -106,4 +107,37 @@ const AboutData = {
     ]
 }
 
-export { NavbarData, CardData, HeroData, CourseData, AboutData }
+const TestimoniData = {
+    title: "Success Stories",
+    subTitle: "Membangun Hasil Karya Yang Bermanfaat Untuk Masyarakat",
+    testimonials: [
+        {
+            name: "Lorem Ipsum",
+            img: sampleImg,
+            job: "Web Developer",
+            testi: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        },
+        {
+            name: "Lorem Ipsum",
+            img: sampleImg,
+            job: "Web Developer",
+            testi: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        },
+        {
+            name: "Lorem Ipsum",
+            img: sampleImg,
+            job: "Web Developer",
+            testi: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        },
+        {
+            name: "Lorem Ipsum",
+            img: sampleImg,
+            job: "Web Developer",
+            testi: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        },
+
+    ]
+}
+
+
+export { NavbarData, CardData, HeroData, CourseData, AboutData, TestimoniData }
