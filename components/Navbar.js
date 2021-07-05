@@ -1,5 +1,6 @@
 import React from "react";
 import { NavbarData } from "../constants/data";
+import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -20,7 +21,7 @@ const Navbar = () => {
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <i className="fas fa-bars"></i>
+              <FaBars/>
             </button>
           </div>
           <div
