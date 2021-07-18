@@ -11,8 +11,8 @@ const TopFeatured = () => {
             <Title title={title} subTitle={subTitle} mb="mb-10" />
             <div className="flex flex-wrap justify-center items-center container mx-auto">
                 {cards.map((card, i) => (
-                    <div className="mt-5 p-5">
-                        <div key={i} className="h-full rounded-lg overflow-hidden bg-white shadow-lg mr-5 cursor-pointer">
+                    <div className="mt-5 p-5" key={i}>
+                        <div className="h-full rounded-lg overflow-hidden bg-white shadow-lg mr-5 cursor-pointer">
                             <div className="bg-gray-400 p-5">
                                 <Image src={card.img} alt="pic vue" width={210} height={150} />
                             </div>

@@ -1,10 +1,10 @@
-import { Fragment } from "react"
+import React from "react"
 import { Course, Hero, Footer, Navbar, TopFeatured, About, Testimoni } from "../components"
 import Head from "next/head"
 
-export default function Home() {
+const Home = () => {
   return (
-    <Fragment>
+    <div className="w-min min-h-screen sm:min-w-full">
       <Head>
         <title>Landing Page Coding Nicely</title>
         <meta name="description" content="Company Profile website using Next JS" />
@@ -16,6 +16,8 @@ export default function Home() {
       <About />
       <Testimoni />
       <Footer />
-    </Fragment>
+    </div>
   )
 }
+
+export default Home
