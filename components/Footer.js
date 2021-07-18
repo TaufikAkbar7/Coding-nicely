@@ -5,7 +5,7 @@ const Footer = () => {
     const { data, data2 } = FooterData
 
     return (
-        <div className="bg-secondary h-56 flex flex-col justify-center items-center sm:h-60">
+        <div className="bg-secondary h-56 flex flex-col justify-center items-center sm:h-80 mt-10">
             <div className="container mx-auto flex flex-wrap justify-center items-center">
                 {data.map((item, i) => (
                     <div key={i} className="flex flex-col justify-center items-start ml-5 first:mt-5">

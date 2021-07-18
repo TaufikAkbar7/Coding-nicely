@@ -2,13 +2,16 @@ import { useState } from "react"
 import { Background } from "./Svg"
 
 const Hero = () => {
-    
+
     const [size, setSize] = useState()
 
-    window.addEventListener("resize", function(){
-        const resize = window.screen.width;
-        setSize(resize)
-    })
+    if(typeof window !== "undefined"){
+        window.addEventListener("resize", function () {
+            const resize = window.screen.width;
+            setSize(resize)
+        })
+    }
+
     return (
         <div className="min-h-screen flex flex-col justify-center items-baseline">
             <div className="container mx-auto p-5 flex flex-col sm:flex-col xl:flex-row justify-center items-stretch">
@@ -28,8 +31,8 @@ const Hero = () => {
                     null
                 ) : (
                     <div className="text-lg mr-5 md:px-24 p-14">
-                    <Background width="500" height="400" vHeight="680.00102" vWidth="728.08199" />
-                </div>
+                        <Background width="500" height="400" vHeight="680.00102" vWidth="728.08199" />
+                    </div>
                 )}
             </div>
         </div>

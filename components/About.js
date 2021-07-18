@@ -6,13 +6,14 @@ const About = () => {
     const [size, setSize] = useState()
     const { title, subTitle, abouts } = AboutData
 
-   
+
+    if(typeof window !== "undefined"){
         window.addEventListener("resize", function () {
             const resize = window.screen.width;
             setSize(resize)
         })
+    }
 
-    console.log(size)
     return (
         <div className="min-h-screen flex flex-col justify-center items-center mt-10 sm:mt-10 lg:mt-2">
             <Title title={title} subTitle={subTitle} mb="mb-10" />
