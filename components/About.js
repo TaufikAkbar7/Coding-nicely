@@ -3,7 +3,7 @@ import { AboutData } from "../constants/data"
 import { useState } from "react"
 
 const About = () => {
-    const [size, setSize] = useState()
+    const [size, setSize] = useState(640)
     const { title, subTitle, abouts } = AboutData
 
 

@@ -3,7 +3,7 @@ import { Background } from "./Svg"
 
 const Hero = () => {
 
-    const [size, setSize] = useState()
+    const [size, setSize] = useState(640)
 
     if(typeof window !== "undefined"){
         window.addEventListener("resize", function () {
@@ -27,7 +27,7 @@ const Hero = () => {
                         </button>
                     </div>
                 </div>
-                {size <= 630 ? (
+                {size <= 640 ? (
                     null
                 ) : (
                     <div className="text-lg mr-5 md:px-24 p-14">
